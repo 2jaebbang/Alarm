@@ -23,33 +23,49 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:onClick="onClick"
+            android:id="@+id/sun"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="일"/>
+
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/mon"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="월"/>
         <Button
+            android:onClick="onClick"
+            android:id="@+id/tue"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="화"/>
         <Button
+            android:onClick="onClick"
+            android:id="@+id/wed"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="수"/>
         <Button
+            android:onClick="onClick"
+            android:id="@+id/thu"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="목"/>
         <Button
+            android:onClick="onClick"
+            android:id="@+id/fri"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="금"/>
         <Button
+            android:onClick="onClick"
+            android:id="@+id/sat"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:text="토"/>
-        <Button
-            android:layout_width="40dp"
-            android:layout_height="wrap_content"
-            android:text="일"/>
+
 
 
     </LinearLayout>
@@ -127,11 +143,13 @@
             android:id="@+id/btn_stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="unregist"
             android:text="취소"/>
         <Button
             android:id="@+id/btn_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="regist"
             android:text="저장"/>
 
     </LinearLayout>
